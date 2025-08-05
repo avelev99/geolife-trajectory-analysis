@@ -1,0 +1,19 @@
+paths:
+  raw_data_dir: "Data"
+  processed_dir: "data/processed/"
+  output_dir: "outputs/"
+
+preprocessing:
+  trip_segmentation_threshold_min: 30
+  min_trip_distance_m: 100
+
+stay_point_detection:
+  eps_meters: 150
+  min_samples: 5
+  geohash_precision: 7
+
+features:
+  max_speed_kmh: 200
+
+analysis:
+  user_ids: ['010', '020']

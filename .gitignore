@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.venv
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & Outputs
+Data/
+data/
+outputs/
+outputs/models/
+outputs/reports/*.csv
+outputs/reports/*.json
+outputs/figures/
+
+# Processed data
+data/processed/
